@@ -1,0 +1,150 @@
+@charset "utf-8";
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family:'メイリオ', 'Meiryo','ＭＳ ゴシック','Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3',sans-serif;
+}
+
+/* ヘッダー */
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.header__sitelogo {
+    width: 150px;
+}
+
+.header__sitelogo-img {
+    width: 100%;
+}
+
+.navigation {
+    font-size: 1.6rem;
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    align-items: center;
+    /* background-color: palevioletred; */
+}
+
+.navigation__menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 500px;
+    margin-right: 50px;
+    font-weight: bold;
+    /* background-color: antiquewhite; */
+    box-sizing: border-box;
+}
+
+
+.navigation__link:hover {
+    border-bottom: solid 2px #010101;
+    transition:0.3s;
+}
+
+
+.navigation__login__button a {
+    display: flex;
+    justify-content: space-around;
+    margin-right: 30px;
+    width: 150px;
+    max-width: 700px;
+    padding: 30px 25px;
+    color: #FFF;
+    transition: 0.3s ease-in-out;
+    font-weight: 600;
+    background: #54CCBA;
+}
+.navigation__login__button a:hover {
+    background: #30a190
+}
+
+
+.main-visual img {
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+/* End of ヘッダー */
+
+/* メイン */
+.main {
+    display: flex;
+    width: 85%;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+
+.main-text {
+    width: 50%;
+}
+
+.main-text__box1 p {
+    font-size: 4rem;
+    font-weight: bold;
+    margin-bottom: 70px;
+}
+
+.main-text__box2 p {
+    font-size: 4rem;
+    font-weight: bold;
+    margin-bottom: 70px;
+}
+
+.main-text__box3 p {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.main-image {
+    width: 50%;
+}
+
+.main-image img {
+    width: 100%;
+}
+/* End of メイン */
+
+/* フッター */
+.footer__catchcopy {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer__catchcopy_wrapper h3 {
+    font-size: 2.0rem;
+    line-height: 3.0rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.footer__catchcopy__image {
+    max-width: 150px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+.footer__copyright {
+    width: 100%;
+    height: 120px;
+    background-color: #010101;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer__copyright__text {
+    color: #FFF;
+}
+/* End of フッター */
