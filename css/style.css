@@ -9,6 +9,7 @@ body {
 }
 /*USAGE FEES・ご利用料金*/
 .usage-fees__title__en {
+    margin: 0 0 20px 0;
     font-size: 6.8rem;
     font-weight: bold;
     text-align: center;
