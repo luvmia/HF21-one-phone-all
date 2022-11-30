@@ -8,6 +8,9 @@ body {
     font-family:'メイリオ', 'Meiryo','ＭＳ ゴシック','Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3',sans-serif;
 }
 /*USAGE FEES・ご利用料金*/
+.usage-fees {
+    margin: 0 0 200px 0;
+}
 .usage-fees__title__en {
     margin: 0 0 20px 0;
     font-size: 6.8rem;
@@ -110,4 +113,31 @@ body {
     color: #54ccba;
 }
 
-/*ご使用方法*/
+/*HOW TO USE・ご利用方法*/
+.how-to-use {
+    margin: 0 0 200px 0;
+}
+.how-to-use__title__en {
+    margin: 0 0 20px 0;
+    font-size: 6.8rem;
+    font-weight: bold;
+    text-align: center;
+}
+.how-to-use__title__jp {
+    margin: 0 0 75px 0;
+    font-size: 4.2rem;
+    font-weight: bold;
+    text-align: center;
+}
+.how-to-use__group {
+    display: flex;
+    align-items: flex-end;
+}
+.how-to-use__step1__circle {
+    font-size: 2rem;
+    font-weight: bold;
+}
+.how-to-use__step1__circle--big {
+    font-size: 3rem;
+    font-weight: bold;
+}
