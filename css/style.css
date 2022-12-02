@@ -32,8 +32,10 @@ body {
     width: 362px;
     border: 4px solid #54ccba;
     border-radius: 16px; 
+    
 }
 .usage-fees__plan__1day__title {
+    display: block;
     margin: 0 0 30px 0;
     padding: 13px 0 9px 0;
     text-align: center;
@@ -41,6 +43,7 @@ body {
     font-weight: bold;
     color: #FFFFFF;
     background-color: #54ccba;
+    border-radius: 10px 10px 0 0; 
 }
 .usage-fees__plan__1day__text {
     margin: 0 0 15px 0;
@@ -61,6 +64,7 @@ body {
     margin: 0 60px 0 60px;
     border: 4px solid #54ccba;
     border-radius: 16px; 
+    
 }
 .usage-fees__plan__1month__title {
     margin: 0 0 30px 0;
@@ -70,6 +74,7 @@ body {
     font-weight: bold;
     color: #FFFFFF;
     background-color: #54ccba;
+    border-radius: 10px 10px 0 0;
 }
 .usage-fees__plan__1month__text {
     margin: 0 0 15px 0;
@@ -89,6 +94,7 @@ body {
     width: 362px;
     border: 4px solid #54ccba;
     border-radius: 16px; 
+    
 }
 .usage-fees__plan__1year__title {
     margin: 0 0 30px 0;
@@ -98,6 +104,7 @@ body {
     font-weight: bold;
     color: #FFFFFF;
     background-color: #54ccba;
+    border-radius: 10px 10px 0 0;
 }
 .usage-fees__plan__1year__text {
     margin: 0 0 15px 0;
@@ -130,12 +137,22 @@ body {
     text-align: center;
 }
 .how-to-use__group {
+    position: relative;
     display: flex;
-    justify-content: space-around;
-    align-items: flex-end;
+    padding: 0 0 99px 0;
+    justify-content: center;
+    align-items: flex-start;
+    /* height: 531px; */
+    background-color: #EEF1F3;
+    background: linear-gradient(to bottom, #fff 0%, #fff 28%, #EEF1F3 28%,  #EEF1F3 100%);
+}
+
+.how-to-use__step1 {
+    display: flex;
+    flex-direction: column;
+    
 }
 .how-to-use__step1__circle {
-    
     width: 116px;
     height: 116px;
     margin: 0 auto;
@@ -159,9 +176,39 @@ body {
     font-weight: bold;
     color: #fff;
 }
+.how-to-use__step1__line {
+    margin: 0 auto;
+    width: 1px;
+    height: 192px;
 
-.how-to-use__step2__circle {
+}
+.how-to-use__step1__img {
+    width: 300px;
+    margin: 0 0 20px 0;
     
+}
+.how-to-use__step1__heading {
+    margin: 0 0 16px;
+    font-size: 2.4rem;
+    font-weight: bold;
+    text-align: center;
+}
+.how-to-use__step1__text {
+    font-size: 1.6rem;
+    line-height: 1.5;
+    text-align: center;
+}
+.how-to-use__step1__text span {
+    visibility: hidden;
+}
+
+.how-to-use__step2 {
+    width: 300px;
+    margin: 0 100px 0;
+    display: flex;
+    flex-direction: column;
+}
+.how-to-use__step2__circle {
     width: 116px;
     height: 116px;
     margin: 0 auto;
@@ -185,7 +232,34 @@ body {
     font-weight: bold;
     color: #fff;
 }
+.how-to-use__step2__line {
+    margin: 0 auto;
+    width: 1px;
+    height: 40px;
 
+}
+.how-to-use__step2__img {
+    margin: 0 0 20px;
+}
+.how-to-use__step2__heading {
+    margin: 0 0 16px;
+    font-size: 2.4rem;
+    font-weight: bold;
+    text-align: center;
+}
+.how-to-use__step2__text {
+    font-size: 1.6rem;
+    line-height: 1.5;
+    text-align: center;
+}
+.how-to-use__step2__text span {
+    visibility: hidden;
+}
+.how-to-use__step3 {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+}
 .how-to-use__step3__circle {
     
     width: 116px;
@@ -210,4 +284,24 @@ body {
     font-size: 3rem;
     font-weight: bold;
     color: #fff;
+}
+.how-to-use__step3__line {
+    margin: 0 auto;
+    width: 1px;
+    height: 198px;
+
+}
+.how-to-use__step3__img {
+    margin: 0 0 20px;
+}
+.how-to-use__step3__heading {
+    margin: 0 0 16px;
+    font-size: 2.4rem;
+    font-weight: bold;
+    text-align: center;
+}
+.how-to-use__step3__text {
+    font-size: 1.6rem;
+    line-height: 1.5;
+    text-align: center;
 }
