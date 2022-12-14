@@ -43,7 +43,8 @@ body {
     font-weight: bold;
     color: #FFFFFF;
     background-color: #54ccba;
-    border-radius: 10px 10px 0 0; 
+    border-radius: 10px 10px 0 0;
+    /* transform: translateX(0px) translateY(-1px);  */
 }
 .usage-fees__plan__1day__text {
     margin: 0 0 15px 0;
@@ -184,7 +185,7 @@ body {
 }
 .how-to-use__step1__img {
     width: 300px;
-    margin: 0 0 20px 0;
+    margin: 0 auto 20px auto;
     
 }
 .how-to-use__step1__heading {
@@ -292,7 +293,7 @@ body {
 
 }
 .how-to-use__step3__img {
-    margin: 0 0 20px;
+    margin: 0 auto 20px auto;
 }
 .how-to-use__step3__heading {
     margin: 0 0 16px;
@@ -304,4 +305,371 @@ body {
     font-size: 1.6rem;
     line-height: 1.5;
     text-align: center;
+}
+
+@media screen and (max-width: 1200px) {
+    .usage-fees__plan__group {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .usage-fees__plan__1day {
+        position: relative;
+        width: 60vw;
+        margin-bottom: 72px;
+        border: none;
+    }
+    .usage-fees__plan__1day__title {
+        display: block;
+        margin: 0 0 30px 0;
+        padding: 13px 0 9px 0;
+        text-align: center;
+        font-size: 4vw;
+        font-weight: bold;
+        color: #FFFFFF;
+        background-color: #54ccba;
+        border-radius: 16px 16px 0 0;
+    }
+    .usage-fees__plan__1day__title::after {
+        content: "";
+        display: block;
+        box-sizing: border-box;
+        position:absolute;
+        top:0;
+        left:0;
+        width:100%;
+        height:100%;
+        border:4px #54ccba solid;
+        border-radius: 16px;
+    }
+    .usage-fees__plan__1day__text {
+        margin: 0 0 15px 0;
+        text-align: center;
+        font-size: 3vw;
+        font-weight: bold;
+    }
+    .usage-fees__plan__1day__fee {
+        margin: 0 0 16px 0;
+        text-align: center;
+        font-size: 9vw;
+        font-weight: bold;
+        color: #54ccba;
+    }
+
+    .usage-fees__plan__1month {
+        position: relative;
+        width: 60vw;
+        margin: 0 60px 72px 60px;
+        border: none;
+    }
+    .usage-fees__plan__1month__title {
+        margin: 0 0 30px 0;
+        padding: 13px 0 9px 0;
+        text-align: center;
+        font-size: 4vw;
+        font-weight: bold;
+        color: #FFFFFF;
+        background-color: #54ccba;
+        border-radius: 16px 16px 0 0;
+    }
+    .usage-fees__plan__1month__title::after {
+        content: "";
+        display: block;
+        box-sizing: border-box;
+        position:absolute;
+        top:0;
+        left:0;
+        width:100%;
+        height:100%;
+        border:4px #54ccba solid;
+        border-radius: 16px;
+    }
+    .usage-fees__plan__1month__text {
+        margin: 0 0 15px 0;
+        text-align: center;
+        font-size: 3vw;
+        font-weight: bold;
+    }
+    .usage-fees__plan__1month__fee {
+        margin: 0 0 16px 0;
+        text-align: center;
+        font-size: 9vw;
+        font-weight: bold;
+        color: #54ccba;
+    }
+
+    .usage-fees__plan__1year {
+        position: relative;
+        width: 60vw;
+        border: none;
+        
+    }
+    .usage-fees__plan__1year__title {
+        margin: 0 0 30px 0;
+        padding: 13px 0 9px 0;
+        text-align: center;
+        font-size: 4vw;
+        font-weight: bold;
+        color: #FFFFFF;
+        background-color: #54ccba;
+        border-radius: 16px 16px 0 0;
+    }
+    .usage-fees__plan__1year__title::after {
+        content: "";
+        display: block;
+        box-sizing: border-box;
+        position:absolute;
+        top:0;
+        left:0;
+        width:100%;
+        height:100%;
+        border:4px #54ccba solid;
+        border-radius: 16px;
+    }
+    .usage-fees__plan__1year__text {
+        margin: 0 0 15px 0;
+        text-align: center;
+        font-size: 3vw;
+        font-weight: bold;
+    }
+    .usage-fees__plan__1year__fee {
+        margin: 0 0 16px 0;
+        text-align: center;
+        font-size: 9vw;
+        font-weight: bold;
+        color: #54ccba;
+    }
+}
+@media screen and (max-width: 600px) {
+    .usage-fees__plan__group {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .usage-fees__plan__group {
+        display: flex;
+        justify-content: center;
+    }
+    .usage-fees__plan__1day {
+        position: relative;
+        margin-bottom: 72px;
+        width: 362px;
+        border: none;
+    }
+    
+    .usage-fees__plan__1day__title {
+        display: block;
+        margin: 0 0 30px 0;
+        padding: 13px 0 9px 0;
+        text-align: center;
+        font-size: 3rem;
+        font-weight: bold;
+        color: #FFFFFF;
+        border-radius: 16px 16px 0 0;
+    }
+    .usage-fees__plan__1day__title::after {
+        content: "";
+        display: block;
+        box-sizing: border-box;
+        position:absolute;
+        top:0;
+        left:0;
+        width:100%;
+        height:100%;
+        border:4px #54ccba solid;
+        border-radius: 16px;
+    }
+    .usage-fees__plan__1day__text {
+        margin: 0 0 15px 0;
+        text-align: center;
+        font-size: 1.8rem;
+        font-weight: bold;
+    }
+    .usage-fees__plan__1day__fee {
+        margin: 0 0 16px 0;
+        text-align: center;
+        font-size: 5rem;
+        font-weight: bold;
+        color: #54ccba;
+    }
+
+    .usage-fees__plan__1month {
+        position: relative;
+        width: 362px;
+        margin: 0 60px 72px 60px;
+        border: none;
+        
+    }
+    .usage-fees__plan__1month__title {
+        margin: 0 0 30px 0;
+        padding: 13px 0 9px 0;
+        text-align: center;
+        font-size: 3rem;
+        font-weight: bold;
+        color: #FFFFFF;
+        background-color: #54ccba;
+        border-radius: 16px 16px 0 0;
+    }
+    .usage-fees__plan__1month__title::after {
+        content: "";
+        display: block;
+        box-sizing: border-box;
+        position:absolute;
+        top:0;
+        left:0;
+        width:100%;
+        height:100%;
+        border:4px #54ccba solid;
+        border-radius: 16px;
+    }
+    .usage-fees__plan__1month__text {
+        margin: 0 0 15px 0;
+        text-align: center;
+        font-size: 1.8rem;
+        font-weight: bold;
+    }
+    .usage-fees__plan__1month__fee {
+        margin: 0 0 16px 0;
+        text-align: center;
+        font-size: 5rem;
+        font-weight: bold;
+        color: #54ccba;
+    }
+
+    .usage-fees__plan__1year {
+        position: relative;
+        width: 362px;
+        margin: 0 60px 72px 60px;
+        border: none;
+        
+    }
+    .usage-fees__plan__1year__title {
+        margin: 0 0 30px 0;
+        padding: 13px 0 9px 0;
+        text-align: center;
+        font-size: 3rem;
+        font-weight: bold;
+        color: #FFFFFF;
+        background-color: #54ccba;
+        border-radius: 16px 16px 0 0;
+    }
+    .usage-fees__plan__1year__title::after {
+        content: "";
+        display: block;
+        box-sizing: border-box;
+        position:absolute;
+        top:0;
+        left:0;
+        width:100%;
+        height:100%;
+        border:4px #54ccba solid;
+        border-radius: 16px;
+    }
+    .usage-fees__plan__1year__text {
+        margin: 0 0 15px 0;
+        text-align: center;
+        font-size: 1.8rem;
+        font-weight: bold;
+    }
+    .usage-fees__plan__1year__fee {
+        margin: 0 0 16px 0;
+        text-align: center;
+        font-size: 5rem;
+        font-weight: bold;
+        color: #54ccba;
+    }
+}
+
+
+
+@media screen and (max-width: 1200px) {
+    .how-to-use__group {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 99px 0 99px 0;
+        background: linear-gradient(to bottom, #EEF1F3 100%, #EEF1F3 100%, #EEF1F3 100%,  #EEF1F3 100%);
+    }
+    .how-to-use__step1{
+        width: 50vw;
+        margin: 0 auto 20px auto;
+        margin-bottom: 72px;
+    }
+    .how-to-use__step1__img {
+        width: 100%;
+        margin: 0 auto 20px auto;
+    }
+    .how-to-use__step1__line {
+        height: 40px;
+    }
+    .how-to-use__step2{
+        width: 50vw;
+        margin: 0 auto 20px auto;
+        margin-bottom: 72px;
+    }
+    .how-to-use__step2__img {
+        width: 100%;
+        margin: 0 auto 20px auto;
+
+        
+    }
+    .how-to-use__step3 {
+        width: 50vw;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .how-to-use__step3__img {
+        width: 100%;
+        margin: 0 auto 20px auto;
+        
+    }
+    .how-to-use__step3__line {
+        height: 40px;
+    }
+    
+}
+
+@media screen and (max-width: 600px) {
+    .how-to-use__group {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 99px 0 99px 0;
+        background: linear-gradient(to bottom, #EEF1F3 100%, #EEF1F3 100%, #EEF1F3 100%,  #EEF1F3 100%);
+    }
+    .how-to-use__step1{
+        width: 300px;
+        margin-bottom: 72px;
+    }
+    .how-to-use__step1__img {
+        width: 100%;
+        margin: 0 auto 20px auto;
+        
+    }
+    .how-to-use__step1__line {
+        height: 40px;
+    }
+    .how-to-use__step2{
+        width: 300px;
+        margin-bottom: 72px;
+    }
+    .how-to-use__step2__img {
+        width: 100%;
+        margin: 0 auto 20px auto;
+        
+    }
+    .how-to-use__step3 {
+        width: 300px;
+    }
+    .how-to-use__step3__img {
+        width: 100%;
+        margin: 0 auto 20px auto;
+        
+    }
+    .how-to-use__step3__line {
+        height: 40px;
+    }
+    
 }
